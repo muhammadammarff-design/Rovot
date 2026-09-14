@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Blog - Unifex Digital Agency & Creative Portfolio." />
+  <meta name="robots" content="INDEX,FOLLOW" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Unifex Digital Agency</title>
+  <link rel="icon" href="assets/images/logo/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="tw-magic-cursor">
+  <!--==================== Preloader Start ====================-->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <div class="preloader-heading">
+      <div class="load-text">
+        <span>L</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span>
+      </div>
+    </div>
+  </div>
+  <!--==================== Preloader End ====================-->
+
+  <div class="overlay"></div>
+  <div class="side-overlay"></div>
+
+  <div id="magic-cursor">
+    <div id="ball"></div>
+  </div>
+
+  <div id="toast-container"></div>
+
+  <div class="back-to-top-wrapper">
+    <button id="back_to_top" type="button" class="back-to-top-btn">
+      <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- ==================== Offcanvus Mobile Menu Start ==================== -->
+  <div class="tw-offcanvas-2-area p-relative">
+    <div class="tw-offcanvas-2-bg is-left left-box"></div>
+    <div class="tw-offcanvas-2-bg is-right right-box d-none d-md-block"></div>
+    <div class="tw-offcanvas-2-wrapper">
+      <div class="tw-offcanvas-2-left left-box">
+        <div class="tw-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
+          <div class="twoffcanvas__logo">
+            <a class="logo-1" href="index.html"><img src="assets/images/logo/logo.png" alt="logo" /></a>
+          </div>
+          <div class="tw-offcanvas-2-close d-md-none text-end">
+            <button class="tw-offcanvas-2-close-btn tw-offcanvas-2-close-btn">
+              <span class="text"><span class="text-white">close</span></span>
+              <span class="d-inline-block"><span>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32.621" height="1.00918"
+                      transform="matrix(0.704882 0.709325 -0.704882 0.709325 1.0061 0)" fill="currentcolor" />
+                    <rect width="32.621" height="1.00918"
+                      transform="matrix(0.704882 -0.709325 0.704882 0.709325 0 23.2842)" fill="currentcolor" />
+                  </svg>
+                </span></span>
+            </button>
+          </div>
+        </div>
+        <div class="tw-main-menu-mobile menu-hover-active counter-row">
+          <nav></nav>
+        </div>
+      </div>
+      <div class="tw-offcanvas-2-right right-box d-none d-md-block p-relative">
+        <div class="tw-offcanvas-2-close text-end">
+          <button class="tw-offcanvas-2-close-btn">
+            <span class="text"><span>close</span></span>
+            <span class="d-inline-block"><span>
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.80859 9.80762L28.1934 28.1924" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.80859 28.1924L28.1934 9.80761" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span></span>
+          </button>
+        </div>
+        <div class="tw-offcanvas-2-right-inner d-flex flex-column justify-content-between h-100">
+          <div class="twoffcanvas__contact-info">
+            <div class="twoffcanvas__contact-title">
+              <h5 class="text-white">Contact us</h5>
+            </div>
+            <ul>
+              <li>
+                <span class="text-main-two-600 tw-text-xl"><i class="ph ph-map-pin-line"></i></span>
+                <a class="text-white" href="https://www.google.com/maps/@23.8223586,90.3661283,15z"
+                  target="_blank">Manchester 21, Zurich, CH</a>
+              </li>
+              <li>
+                <span class="text-main-two-600 tw-text-xl"><i class="ph ph-envelope"></i></span>
+                <a class="text-white" href="mailto:omioinfo@mail.com">omioinfo@mail.com</a>
+              </li>
+              <li>
+                <span class="text-main-two-600 tw-text-xl"><i class="ph ph-phone-call"></i></span>
+                <a class="text-white" href="tel:+48555223224">(+00) 678 345 98568</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-social" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <ul class="tw-gap-2">
+              <li><a href="#"><span class="active-media d-flex align-items-center tw-gap-1">Facebook <i
+                      class="ph ph-arrow-bend-up-right"></i></span><span class="hover-media"><i
+                      class="ph ph-facebook-logo"></i></span></a></li>
+              <li><a href="#"><span class="active-media d-flex align-items-center tw-gap-1">INSTAGRAM <i
+                      class="ph ph-arrow-bend-up-right"></i></span><span class="hover-media"><i
+                      class="ph ph-instagram-logo"></i></span></a></li>
+              <li><a href="#"><span class="active-media d-flex align-items-center tw-gap-1">LINKEDIN <i
+                      class="ph ph-arrow-bend-up-right"></i></span><span class="hover-media"><i
+                      class="ph ph-linkedin-logo"></i></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ==================== Offcanvus Mobile Menu End ==================== -->
+
+  <!-- ==================== Header Start ==================== -->
+  <header class="header header-two header-three tw-transition-all tw-z-99 position-relative">
+    <div class="container tw-container-1800-px">
+      <nav class="d-flex align-items-center justify-content-between position-relative">
+        <div class="header-three-logo tw-rounded-md">
+          <a href="index.html" class="link"><img src="assets/images/logo/logo-secendary.png" alt="Logo"
+              class="max-w-200-px" /></a>
+        </div>
+        <div class="header-three-social d-none d-lg-block">
+          <ul class="d-flex tw-gap-205">
+            <li><a class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                href="#"><i class="ph-bold ph-facebook-logo"></i></a></li>
+            <li><a class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                href="#"><i class="ph-bold ph-x-logo"></i></a></li>
+            <li><a class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                href="#"><i class="ph-bold ph-instagram-logo"></i></a></li>
+            <li><a class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                href="#"><i class="ph-bold ph-dribbble-logo"></i></a></li>
+          </ul>
+        </div>
+        <div class="header-menu d-none">
+          <div class="main-menu">
+            <nav class="tw-main-menu-content">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="has-dropdown">
+                  <a href="service.html">Services</a>
+                  <ul class="submenu tw-submenu">
+                    <li><a href="service.html">Our Service</a></li>
+                    <li><a href="service-details.html">Service Details</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">Pages</a>
+                  <ul class="submenu tw-submenu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="testimonial.html">Testimonials</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="portfolio-one.html">Portfolio One</a></li>
+                    <li><a href="portfolio-two.html">Portfolio Two</a></li>
+                    <li><a href="portfolio-three.html">Portfolio Three</a></li>
+                    <li><a href="portfolio-four.html">Portfolio Four</a></li>
+                    <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                    <li><a href="faq.html">Our Faq</a></li>
+                    <li><a href="error.html">Error</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a class="color-active" href="blog.html">Blog</a>
+                  <ul class="submenu tw-submenu">
+                    <li><a class="color-active" href="blog.html">Blog</a></li>
+                    <li><a href="blog-list.html">Blog List</a></li>
+                    <li><a href="blog-details.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="header-right d-flex align-items-center tw-gap-705">
+          <div class="header-three-menu">
+            <button
+              class="tw-offcanvas-open-btn tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center tw-transition-3 tw-rounded-md">
+              <span><img class="tw-transition-3" src="assets/images/icons/header-three-toggle.svg"
+                  alt="toggle" /></span>
+            </button>
+          </div>
+          <div class="header-three-button d-none d-md-block">
+            <a class="tw-hover-btn bg-black text-white fw-bold tw-py-4 tw-px-10 d-inline-block hover-text-white text-uppercase tw-rounded-md"
+              href="contact.html">
+              download cv
+              <span class="tw-hover-btn-circle-dot bg-main-two-600"></span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- ==================== Header End ==================== -->
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <!-- ==================== Breadcrumb Start ==================== -->
+      <section class="banner-three-area bg-black py-120 position-relative z-1">
+        <div class="container tw-container-1800-px">
+          <div class="row justify-content-center">
+            <div class="col-xl-8">
+              <div class="text-center">
+                <h1 class="text-white tw-text-15 tw-mb-6 tw-char-animation">Blog & News</h1>
+                <ul class="d-flex justify-content-center tw-gap-3">
+                  <li><a class="text-white tw-text-lg hover-text-main-two-600 tw-transition-3"
+                      href="index.html">Home</a></li>
+                  <li><span class="text-main-two-600 tw-text-lg">/</span></li>
+                  <li><span class="text-white tw-text-lg">Blog</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Breadcrumb End ==================== -->
+
+      <!-- ==================== Blog Grid Section Start ==================== -->
+      <section class="py-120 position-relative z-1 bg-black">
+        <div class="container tw-container-1800-px">
+          <div class="row">
+            <!-- Blog Item 1 -->
+            <div class="col-xl-4 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="tw-rounded-lg overflow-hidden tw-transition-3 hover-scale-105 group h-100 tw-bg-neutral-900 border border-1 border-neutral-700">
+                <div class="overflow-hidden position-relative">
+                  <a href="blog-details.html">
+                    <img class="w-100 tw-transition-3 group-hover-scale-11" src="assets/images/thumbs/blog-img1.jpg" alt="blog" onerror="this.src='assets/images/thumbs/portfolio-three-thumb1.jpg'">
+                  </a>
+                  <div class="position-absolute bottom-0 start-0 m-4 bg-main-two-600 text-white tw-px-4 tw-py-1 tw-rounded-md fw-medium">
+                    Web Design
+                  </div>
+                </div>
+                <div class="tw-p-705">
+                  <div class="d-flex tw-gap-4 tw-mb-4">
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-calendar-blank me-2 text-main-two-600"></i> Oct 15, 2024</span>
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-user me-2 text-main-two-600"></i> Noah Niko</span>
+                  </div>
+                  <h3 class="tw-text-2xl text-white fw-semibold tw-mb-4">
+                    <a href="blog-details.html" class="hover-text-main-two-600 tw-transition-3">The Future of UI Design in 2025 and Beyond</a>
+                  </h3>
+                  <p class="text-neutral-100 tw-text-lg tw-mb-6 line-clamp-3">
+                    Explore the upcoming trends in user interface design, from glassmorphism evolution to AI-driven dynamic layouts.
+                  </p>
+                  <a href="blog-details.html" class="text-white hover-text-main-two-600 fw-medium d-inline-flex align-items-center tw-transition-3">
+                    Read More <i class="ph ph-arrow-right ms-2 tw-text-xl"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Item 2 -->
+            <div class="col-xl-4 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <div class="tw-rounded-lg overflow-hidden tw-transition-3 hover-scale-105 group h-100 tw-bg-neutral-900 border border-1 border-neutral-700">
+                <div class="overflow-hidden position-relative">
+                  <a href="blog-details.html">
+                    <img class="w-100 tw-transition-3 group-hover-scale-11" src="assets/images/thumbs/blog-img2.jpg" alt="blog" onerror="this.src='assets/images/thumbs/portfolio-three-thumb2.jpg'">
+                  </a>
+                  <div class="position-absolute bottom-0 start-0 m-4 bg-main-two-600 text-white tw-px-4 tw-py-1 tw-rounded-md fw-medium">
+                    Development
+                  </div>
+                </div>
+                <div class="tw-p-705">
+                  <div class="d-flex tw-gap-4 tw-mb-4">
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-calendar-blank me-2 text-main-two-600"></i> Sep 28, 2024</span>
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-user me-2 text-main-two-600"></i> Noah Niko</span>
+                  </div>
+                  <h3 class="tw-text-2xl text-white fw-semibold tw-mb-4">
+                    <a href="blog-details.html" class="hover-text-main-two-600 tw-transition-3">Optimizing Web Performance for Better SEO</a>
+                  </h3>
+                  <p class="text-neutral-100 tw-text-lg tw-mb-6 line-clamp-3">
+                    Learn practical strategies to improve your website's loading speed and core web vitals for better search rankings.
+                  </p>
+                  <a href="blog-details.html" class="text-white hover-text-main-two-600 fw-medium d-inline-flex align-items-center tw-transition-3">
+                    Read More <i class="ph ph-arrow-right ms-2 tw-text-xl"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Item 3 -->
+            <div class="col-xl-4 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <div class="tw-rounded-lg overflow-hidden tw-transition-3 hover-scale-105 group h-100 tw-bg-neutral-900 border border-1 border-neutral-700">
+                <div class="overflow-hidden position-relative">
+                  <a href="blog-details.html">
+                    <img class="w-100 tw-transition-3 group-hover-scale-11" src="assets/images/thumbs/blog-img3.jpg" alt="blog" onerror="this.src='assets/images/thumbs/portfolio-three-thumb3.jpg'">
+                  </a>
+                  <div class="position-absolute bottom-0 start-0 m-4 bg-main-two-600 text-white tw-px-4 tw-py-1 tw-rounded-md fw-medium">
+                    Branding
+                  </div>
+                </div>
+                <div class="tw-p-705">
+                  <div class="d-flex tw-gap-4 tw-mb-4">
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-calendar-blank me-2 text-main-two-600"></i> Sep 12, 2024</span>
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-user me-2 text-main-two-600"></i> Noah Niko</span>
+                  </div>
+                  <h3 class="tw-text-2xl text-white fw-semibold tw-mb-4">
+                    <a href="blog-details.html" class="hover-text-main-two-600 tw-transition-3">Creating a Cohesive Brand Identity System</a>
+                  </h3>
+                  <p class="text-neutral-100 tw-text-lg tw-mb-6 line-clamp-3">
+                    A comprehensive guide to building a consistent visual identity across all touchpoints and channels.
+                  </p>
+                  <a href="blog-details.html" class="text-white hover-text-main-two-600 fw-medium d-inline-flex align-items-center tw-transition-3">
+                    Read More <i class="ph ph-arrow-right ms-2 tw-text-xl"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Blog Item 4 -->
+            <div class="col-xl-4 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="tw-rounded-lg overflow-hidden tw-transition-3 hover-scale-105 group h-100 tw-bg-neutral-900 border border-1 border-neutral-700">
+                <div class="overflow-hidden position-relative">
+                  <a href="blog-details.html">
+                    <img class="w-100 tw-transition-3 group-hover-scale-11" src="assets/images/thumbs/blog-img4.jpg" alt="blog" onerror="this.src='assets/images/thumbs/portfolio-three-thumb4.jpg'">
+                  </a>
+                  <div class="position-absolute bottom-0 start-0 m-4 bg-main-two-600 text-white tw-px-4 tw-py-1 tw-rounded-md fw-medium">
+                    Animation
+                  </div>
+                </div>
+                <div class="tw-p-705">
+                  <div class="d-flex tw-gap-4 tw-mb-4">
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-calendar-blank me-2 text-main-two-600"></i> Aug 25, 2024</span>
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-user me-2 text-main-two-600"></i> Noah Niko</span>
+                  </div>
+                  <h3 class="tw-text-2xl text-white fw-semibold tw-mb-4">
+                    <a href="blog-details.html" class="hover-text-main-two-600 tw-transition-3">Mastering GSAP for Web Animations</a>
+                  </h3>
+                  <p class="text-neutral-100 tw-text-lg tw-mb-6 line-clamp-3">
+                    An advanced tutorial on creating buttery-smooth scroll-triggered animations using the GSAP library.
+                  </p>
+                  <a href="blog-details.html" class="text-white hover-text-main-two-600 fw-medium d-inline-flex align-items-center tw-transition-3">
+                    Read More <i class="ph ph-arrow-right ms-2 tw-text-xl"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Blog Item 5 -->
+            <div class="col-xl-4 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <div class="tw-rounded-lg overflow-hidden tw-transition-3 hover-scale-105 group h-100 tw-bg-neutral-900 border border-1 border-neutral-700">
+                <div class="overflow-hidden position-relative">
+                  <a href="blog-details.html">
+                    <img class="w-100 tw-transition-3 group-hover-scale-11" src="assets/images/thumbs/blog-img5.jpg" alt="blog" onerror="this.src='assets/images/thumbs/portfolio-two-thumb1.jpg'">
+                  </a>
+                  <div class="position-absolute bottom-0 start-0 m-4 bg-main-two-600 text-white tw-px-4 tw-py-1 tw-rounded-md fw-medium">
+                    UI/UX
+                  </div>
+                </div>
+                <div class="tw-p-705">
+                  <div class="d-flex tw-gap-4 tw-mb-4">
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-calendar-blank me-2 text-main-two-600"></i> Aug 10, 2024</span>
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-user me-2 text-main-two-600"></i> Noah Niko</span>
+                  </div>
+                  <h3 class="tw-text-2xl text-white fw-semibold tw-mb-4">
+                    <a href="blog-details.html" class="hover-text-main-two-600 tw-transition-3">Accessibility in Modern Web Design</a>
+                  </h3>
+                  <p class="text-neutral-100 tw-text-lg tw-mb-6 line-clamp-3">
+                    Why designing for accessibility is no longer optional, and how to implement WCAG guidelines in your next project.
+                  </p>
+                  <a href="blog-details.html" class="text-white hover-text-main-two-600 fw-medium d-inline-flex align-items-center tw-transition-3">
+                    Read More <i class="ph ph-arrow-right ms-2 tw-text-xl"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Blog Item 6 -->
+            <div class="col-xl-4 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <div class="tw-rounded-lg overflow-hidden tw-transition-3 hover-scale-105 group h-100 tw-bg-neutral-900 border border-1 border-neutral-700">
+                <div class="overflow-hidden position-relative">
+                  <a href="blog-details.html">
+                    <img class="w-100 tw-transition-3 group-hover-scale-11" src="assets/images/thumbs/blog-img6.jpg" alt="blog" onerror="this.src='assets/images/thumbs/portfolio-two-thumb2.jpg'">
+                  </a>
+                  <div class="position-absolute bottom-0 start-0 m-4 bg-main-two-600 text-white tw-px-4 tw-py-1 tw-rounded-md fw-medium">
+                    Business
+                  </div>
+                </div>
+                <div class="tw-p-705">
+                  <div class="d-flex tw-gap-4 tw-mb-4">
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-calendar-blank me-2 text-main-two-600"></i> Jul 22, 2024</span>
+                    <span class="text-neutral-400 tw-text-sm"><i class="ph ph-user me-2 text-main-two-600"></i> Noah Niko</span>
+                  </div>
+                  <h3 class="tw-text-2xl text-white fw-semibold tw-mb-4">
+                    <a href="blog-details.html" class="hover-text-main-two-600 tw-transition-3">Pricing Strategies for Freelance Designers</a>
+                  </h3>
+                  <p class="text-neutral-100 tw-text-lg tw-mb-6 line-clamp-3">
+                    A candid discussion on value-based pricing versus hourly rates for independent creative professionals.
+                  </p>
+                  <a href="blog-details.html" class="text-white hover-text-main-two-600 fw-medium d-inline-flex align-items-center tw-transition-3">
+                    Read More <i class="ph ph-arrow-right ms-2 tw-text-xl"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          <!-- Pagination -->
+          <div class="row tw-mt-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="col-12 text-center">
+              <ul class="d-flex justify-content-center align-items-center tw-gap-4">
+                <li><a class="tw-w-12 tw-h-12 d-flex justify-content-center align-items-center rounded-circle border border-1 border-neutral-700 text-white hover-bg-main-two-600 hover-border-main-two-600 tw-transition-3" href="#"><i class="ph ph-caret-left"></i></a></li>
+                <li><a class="tw-w-12 tw-h-12 d-flex justify-content-center align-items-center rounded-circle border border-1 border-main-two-600 bg-main-two-600 text-white tw-transition-3" href="#">1</a></li>
+                <li><a class="tw-w-12 tw-h-12 d-flex justify-content-center align-items-center rounded-circle border border-1 border-neutral-700 text-white hover-bg-main-two-600 hover-border-main-two-600 tw-transition-3" href="#">2</a></li>
+                <li><a class="tw-w-12 tw-h-12 d-flex justify-content-center align-items-center rounded-circle border border-1 border-neutral-700 text-white hover-bg-main-two-600 hover-border-main-two-600 tw-transition-3" href="#">3</a></li>
+                <li><a class="tw-w-12 tw-h-12 d-flex justify-content-center align-items-center rounded-circle border border-1 border-neutral-700 text-white hover-bg-main-two-600 hover-border-main-two-600 tw-transition-3" href="#"><i class="ph ph-caret-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Blog Grid Section End ==================== -->
+
+      <!-- ==================== Footer Start ==================== -->
+      <section class="footer-three-area pt-120 tw-pb-10 position-relative z-1">
+        <div class="container tw-container-1800-px">
+          <div class="row justify-content-between pb-120">
+            <div class="col-xl-5 col-lg-6">
+              <div class="footer-three-top-left tw-me-25" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-delay="200">
+                <div class="tw-mb-9">
+                  <h2 class="tw-text-15 text-white tw-char-animation">Let's create something meaningful</h2>
+                </div>
+                <div class="d-inline-flex align-items-center tw-gap-6 tw-mb-10 flex-wrap">
+                  <a class="tw-text-2xl fw-medium text-main-600 hover-underline hover-text-white"
+                    href="mailto:unifexdonin@gmail.com">unifexdonin@gmail.com</a>
+                  <span class="tw-text-2xl fw-medium text-main-600">//</span>
+                  <a class="tw-text-2xl fw-medium text-main-600 hover-underline hover-text-white"
+                    href="tel:+442039991245">+44 20 3999 1245</a>
+                </div>
+                <div class="footer-three-top-info tw-p-705 tw-rounded-lg d-flex tw-gap-6">
+                  <div class="footer-three-top-thumb tw-w-160-px">
+                    <img class="tw-rounded-lg w-100" src="assets/images/thumbs/footer-three-thumb.jpg" alt="thumb" />
+                  </div>
+                  <div class="footer-three-top-content d-flex justify-content-between flex-column">
+                    <div>
+                      <h3 class="tw-text-xl text-white tw-mb-2">Maxwell Sterling</h3>
+                      <p class="text-white">Co-Founder & CTO</p>
+                    </div>
+                    <div class="footer-three-social">
+                      <ul class="d-flex align-items-center tw-gap-1">
+                        <li><a class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                            href="#"><i class="ph ph-facebook-logo"></i></a></li>
+                        <li><a class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                            href="#"><i class="ph ph-x-logo"></i></a></li>
+                        <li><a class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                            href="#"><i class="ph ph-instagram-logo"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+              <div class="footer-three-form" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <form action="#">
+                  <div class="row">
+                    <div class="col-xl-12">
+                      <div class="position-relative tw-mb-7">
+                        <input type="text"
+                          class="form-control bg-transparent shadow-none tw-rounded-lg text-white tw-ps-7 tw-pe-13 tw-placeholder-text-neutral-100 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2"
+                          placeholder="First Name" />
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="position-relative tw-mb-7">
+                        <input type="email"
+                          class="form-control bg-transparent shadow-none tw-rounded-lg text-white tw-ps-7 tw-pe-13 tw-placeholder-text-neutral-100 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2"
+                          placeholder="Email Address" />
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="position-relative tw-mb-7">
+                        <textarea
+                          class="form-control bg-transparent shadow-none tw-h-196-px tw-rounded-lg text-white tw-ps-7 tw-pe-13 tw-placeholder-text-neutral-100 focus-border-main-600 focus-tw-placeholder-text-hidden tw-placeholder-transition-2"
+                          placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="contact-button">
+                        <button
+                          class="tw-hover-btn bg-main-600 text-heading tw-text-xl fw-bold tw-py-4 tw-px-10 d-inline-flex justify-content-center w-100 hover-text-heading hover-bg-white tw-transition-3 tw-rounded-lg">
+                          submit message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-three-border tw-px-18 tw-mb-10">
+          <div class="container-fluid gx-0">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="footer-three-middile d-flex align-items-center justify-content-between">
+                  <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <h4 class="tw-text-2xl text-white tw-mb-2">Quick Links</h4>
+                    <ul class="d-flex tw-gap-2 flex-wrap">
+                      <li><a class="tw-text-lg text-white" href="index.html">Home,</a></li>
+                      <li><a class="tw-text-lg text-white" href="about.html">About Me,</a></li>
+                      <li><a class="tw-text-lg text-white" href="portfolio-one.html">Portfolio,</a></li>
+                      <li><a class="tw-text-lg text-white" href="service.html">Service,</a></li>
+                      <li><a class="tw-text-lg text-white" href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <a class="footer-three-back-to-top tw-w-170 tw-h-170 lh-1 d-inline-flex justify-content-center align-items-center bg-main-two-600 text-white tw-text-3xl rounded-circle"
+                      href="#"><i class="ph ph-arrow-up"></i></a>
+                  </div>
+                  <div class="text-lg-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <h4 class="tw-text-2xl text-white tw-mb-2">Unifex Agency</h4>
+                    <p class="tw-text-lg text-white">© 2025 Unifex Theme. All right reserved</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="container tw-container-1800-px">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="footer-three-bottom">
+                  <h5 class="footer-three-bottom-title text-white">Noah Niko</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class="position-absolute top-0 start-0 z-n1" src="assets/images/shapes/footer-three-bg-shape.png"
+            alt="shape" />
+        </div>
+      </section>
+      <!-- ==================== Footer End ==================== -->
+
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/phosphor-icon.js"></script>
+  <script src="assets/js/boostrap.bundle.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/magnific-popup.min.js"></script>
+  <script src="assets/js/jquery.marquee.min.js"></script>
+  <script src="assets/js/purecounter.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/gsap/gsap.js"></script>
+  <script src="assets/js/gsap/gsap-scroll-to-plugin.js"></script>
+  <script src="assets/js/gsap/gsap-scroll-smoother.js"></script>
+  <script src="assets/js/gsap/gsap-scroll-trigger.js"></script>
+  <script src="assets/js/gsap/gsap-split-text.js"></script>
+  <script src="assets/js/gsap/chroma.min.js"></script>
+  <script src="assets/js/slider-active.js"></script>
+  <script src="assets/js/custom-gsap.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tw-cursor.js"></script>
+</body>
+
+</html>

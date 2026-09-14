@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description"
+    content="Learn more about Noah Niko — a passionate digital designer and creative developer from London. Discover the story, skills, and experience behind the work." />
+  <meta name="keywords"
+    content="About, Noah Niko, Digital Designer, Creative Developer, Portfolio, Web Development, UI/UX Design" />
+  <meta name="robots" content="INDEX,FOLLOW" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Unifex Digital Agency & Creative Portfolio</title>
+  <link rel="icon" href="assets/images/logo/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="tw-magic-cursor">
+  <!--==================== Preloader Start ====================-->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <div class="preloader-heading">
+      <div class="load-text">
+        <span>L</span>
+        <span>o</span>
+        <span>a</span>
+        <span>d</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+      </div>
+    </div>
+  </div>
+  <!--==================== Preloader End ====================-->
+
+  <!--==================== Overlay Start ====================-->
+  <div class="overlay"></div>
+  <!--==================== Overlay End ====================-->
+
+  <!--==================== Sidebar Overlay ====================-->
+  <div class="side-overlay"></div>
+  <!--==================== Sidebar Overlay End ====================-->
+
+  <!--==================== Begin Magic Cursor Start ====================-->
+  <div id="magic-cursor">
+    <div id="ball"></div>
+  </div>
+  <!--==================== Begin Magic Cursor End ====================-->
+
+  <!-- Custom Toast Message start -->
+  <div id="toast-container"></div>
+  <!-- Custom Toast Message End -->
+
+  <!-- ==================== Scroll to Top Start ==================== -->
+  <div class="back-to-top-wrapper">
+    <button id="back_to_top" type="button" class="back-to-top-btn">
+      <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+    </button>
+  </div>
+  <!-- ==================== Scroll to Top End ==================== -->
+
+  <!-- ==================== Offcanvus Mobile Menu Start ==================== -->
+  <div class="tw-offcanvas-2-area p-relative">
+    <div class="tw-offcanvas-2-bg is-left left-box"></div>
+    <div class="tw-offcanvas-2-bg is-right right-box d-none d-md-block"></div>
+    <div class="tw-offcanvas-2-wrapper">
+      <div class="tw-offcanvas-2-left left-box">
+        <div class="tw-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
+          <div class="twoffcanvas__logo">
+            <a class="logo-1" href="index.html"><img src="assets/images/logo/logo.png" alt="logo" /></a>
+          </div>
+          <div class="tw-offcanvas-2-close d-md-none text-end">
+            <button class="tw-offcanvas-2-close-btn tw-offcanvas-2-close-btn">
+              <span class="text">
+                <span class="text-white">close</span>
+              </span>
+              <span class="d-inline-block">
+                <span>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32.621" height="1.00918"
+                      transform="matrix(0.704882 0.709325 -0.704882 0.709325 1.0061 0)" fill="currentcolor" />
+                    <rect width="32.621" height="1.00918"
+                      transform="matrix(0.704882 -0.709325 0.704882 0.709325 0 23.2842)" fill="currentcolor" />
+                  </svg>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="tw-main-menu-mobile menu-hover-active counter-row">
+          <nav></nav>
+        </div>
+      </div>
+      <div class="tw-offcanvas-2-right right-box d-none d-md-block p-relative">
+        <div class="tw-offcanvas-2-close text-end">
+          <button class="tw-offcanvas-2-close-btn">
+            <span class="text">
+              <span>close</span>
+            </span>
+            <span class="d-inline-block">
+              <span>
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.80859 9.80762L28.1934 28.1924" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.80859 28.1924L28.1934 9.80761" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </span>
+          </button>
+        </div>
+        <div class="tw-offcanvas-2-right-inner d-flex flex-column justify-content-between h-100">
+          <div class="twoffcanvas__contact-info">
+            <div class="twoffcanvas__contact-title">
+              <h5 class="text-white">Contact us</h5>
+            </div>
+            <ul>
+              <li>
+                <span class="text-main-two-600 tw-text-xl"><i class="ph ph-map-pin-line"></i></span>
+                <a class="text-white" href="https://www.google.com/maps/@23.8223586,90.3661283,15z"
+                  target="_blank">Manchester 21, Zurich, CH</a>
+              </li>
+              <li>
+                <span class="text-main-two-600 tw-text-xl"><i class="ph ph-envelope"></i></span>
+                <a class="text-white" href="mailto:omioinfo@mail.com"><span
+                    class="__cf_email__">omioinfo@mail.com</span></a>
+              </li>
+              <li>
+                <span class="text-main-two-600 tw-text-xl"><i class="ph ph-phone-call"></i></span>
+                <a class="text-white" href="tel:+48555223224">(+00) 678 345 98568</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-social" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <ul class="tw-gap-2">
+              <li>
+                <a href="#">
+                  <span class="active-media d-flex align-items-center tw-gap-1">Facebook <i
+                      class="ph ph-arrow-bend-up-right"></i></span>
+                  <span class="hover-media"><i class="ph ph-facebook-logo"></i></span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="active-media d-flex align-items-center tw-gap-1">INSTAGRAM <i
+                      class="ph ph-arrow-bend-up-right"></i></span>
+                  <span class="hover-media"><i class="ph ph-instagram-logo"></i></span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="active-media d-flex align-items-center tw-gap-1">LINKEDIN <i
+                      class="ph ph-arrow-bend-up-right"></i></span>
+                  <span class="hover-media"><i class="ph ph-linkedin-logo"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ==================== Offcanvus Mobile Menu End ==================== -->
+
+  <!-- ==================== Header Start ==================== -->
+  <header class="header header-two header-three tw-transition-all tw-z-99 position-relative">
+    <div class="container tw-container-1800-px">
+      <nav class="d-flex align-items-center justify-content-between position-relative">
+        <!-- Logo Start -->
+        <div class="header-three-logo tw-rounded-md">
+          <a href="index.html" class="link">
+            <img src="assets/images/logo/logo-secendary.png" alt="Logo" class="max-w-200-px" />
+          </a>
+        </div>
+        <!-- Logo End -->
+
+        <!-- Social Icons Start -->
+        <div class="header-three-social d-none d-lg-block">
+          <ul class="d-flex tw-gap-205">
+            <li>
+              <a class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                href="#"><i class="ph-bold ph-facebook-logo"></i></a>
+            </li>
+            <li>
+              <a class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                href="#"><i class="ph-bold ph-x-logo"></i></a>
+            </li>
+            <li>
+              <a class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                href="#"><i class="ph-bold ph-instagram-logo"></i></a>
+            </li>
+            <li>
+              <a class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                href="#"><i class="ph-bold ph-dribbble-logo"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Social Icons End -->
+
+        <!-- Menu Start -->
+        <div class="header-menu d-none">
+          <div class="main-menu">
+            <nav class="tw-main-menu-content">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="color-active" href="about.html">About Us</a></li>
+                <li class="has-dropdown">
+                  <a href="service.html">Services</a>
+                  <ul class="submenu tw-submenu">
+                    <li><a href="service.html">Our Service</a></li>
+                    <li><a href="service-details.html">Service Details</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">Pages</a>
+                  <ul class="submenu tw-submenu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="testimonial.html">Testimonials</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="portfolio-one.html">Portfolio One</a></li>
+                    <li><a href="portfolio-two.html">Portfolio Two</a></li>
+                    <li><a href="portfolio-three.html">Portfolio Three</a></li>
+                    <li><a href="portfolio-four.html">Portfolio Four</a></li>
+                    <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                    <li><a href="faq.html">Our Faq</a></li>
+                    <li><a href="error.html">Error</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="blog.html">Blog</a>
+                  <ul class="submenu tw-submenu">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog-list.html">Blog List</a></li>
+                    <li><a href="blog-details.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- Menu End -->
+
+        <!-- Header Right start -->
+        <div class="header-right d-flex align-items-center tw-gap-705">
+          <div class="header-three-menu">
+            <button
+              class="tw-offcanvas-open-btn tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center tw-transition-3 tw-rounded-md">
+              <span><img class="tw-transition-3" src="assets/images/icons/header-three-toggle.svg"
+                  alt="toggle" /></span>
+            </button>
+          </div>
+          <div class="header-three-button d-none d-md-block">
+            <a class="tw-hover-btn bg-black text-white fw-bold tw-py-4 tw-px-10 d-inline-block hover-text-white text-uppercase tw-rounded-md"
+              href="contact.html">
+              download cv
+              <span class="tw-hover-btn-circle-dot bg-main-two-600"></span>
+            </a>
+          </div>
+        </div>
+        <!-- Header Right End -->
+      </nav>
+    </div>
+  </header>
+  <!-- ==================== Header End ==================== -->
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <!-- ==================== Breadcrumb Start ==================== -->
+      <section class="banner-three-area bg-black py-120 position-relative z-1">
+        <div class="container tw-container-1800-px">
+          <div class="row justify-content-center">
+            <div class="col-xl-8">
+              <div class="text-center">
+                <h1 class="text-white tw-text-15 tw-mb-6 tw-char-animation">About Us</h1>
+                <ul class="d-flex justify-content-center tw-gap-3">
+                  <li><a class="text-white tw-text-lg hover-text-main-two-600 tw-transition-3" href="index.html">Home</a></li>
+                  <li><span class="text-main-two-600 tw-text-lg">/</span></li>
+                  <li><span class="text-white tw-text-lg">About Us</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Breadcrumb End ==================== -->
+
+      <!-- ==================== About Section Start ==================== -->
+      <section class="about-three-area py-120 position-relative z-1">
+        <div class="container tw-container-1800-px">
+          <div class="about-three-top position-relative z-1">
+            <div class="row justify-content-center tw-mb-21">
+              <div class="col-xl-9">
+                <div class="text-center">
+                  <h2 class="about-three-title text-heading tw-text-15 tw-itm-title tw-itm-anim">
+                    I am dedicated to bringing your vision to life by crafting
+                    unique, highly aesthetic, and impactful digital
+                    experiences. My work speaks louder than words—explore the
+                    results.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-6">
+                <div class="about-three-thumb w-100 tw-clip-anim tw-rounded-lg" data-aos="fade-up"
+                  data-aos-duration="1000" data-aos-delay="200">
+                  <img class="tw-anim-img w-100 tw-rounded-lg" data-animate="true"
+                    src="assets/images/thumbs/about-three-thumb.jpg" alt="About Noah Niko" />
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="about-three-right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                  <div>
+                    <p class="tw-text-xl tw-mb-10">
+                      I'm a passionate digital designer and web developer
+                      focused on creating modern, user-centered digital
+                      experiences. I blend creativity with clean, efficient
+                      code to build websites that are not only visually
+                      appealing but also functional, fast, and scalable.
+                    </p>
+                    <p class="tw-text-xl tw-mb-10">
+                      With a strong eye for design & a solid technical
+                      foundation, I transform complex ideas into simple
+                      intuitive digital solutions. I believe great design is
+                      purposeful-every layout, interaction, and line of code
+                      is crafted to enhance usability and deliver real value.
+                    </p>
+                    <p class="tw-text-xl tw-mb-10">
+                      From concept to launch, I work closely with clients to
+                      understand their goals, audience and brand vision. My
+                      collaborative approach ensures every project reflects the
+                      client's identity while meeting business objectives and
+                      performance standards.
+                    </p>
+                  </div>
+                  <div class="about-three-counter d-inline-block">
+                    <div class="tw-hover-btn-wrapper d-inline-block">
+                      <a class="tw-btn-circle tw-hover-btn-item tw-hover-btn tw-w-160-px tw-h-160-px lh-1 d-inline-flex justify-content-center align-items-center rounded-circle position-relative overflow-hidden border border-1 border-neutral-200"
+                        href="contact.html">
+                        <span class="d-flex flex-column justify-content-center">
+                          <span
+                            class="tw-btn-circle-icon text-heading tw-text-8 tw-transition-3 font-heading fw-medium">15+</span>
+                          <span class="text-heading fw-bold text-center tw-transition-3 tw-text-2xl fw-medium">Years of
+                            Experience</span>
+                        </span>
+                        <i class="tw-btn-circle-dot bg-main-two-600"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class="about-three-shape position-absolute start-0 w-100"
+            src="assets/images/shapes/about-three-shape.png" alt="shape" />
+        </div>
+      </section>
+      <!-- ==================== About Section End ==================== -->
+
+      <!-- ==================== Skills Section Start ==================== -->
+      <section class="bg-black py-120">
+        <div class="container tw-container-1800-px">
+          <div class="row justify-content-center tw-mb-21">
+            <div class="col-xl-8">
+              <div class="text-center">
+                <h2 class="text-white tw-text-15 tw-char-animation">My Skills & Expertise</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="tw-mb-10">
+                <div class="d-flex justify-content-between tw-mb-4">
+                  <span class="text-white tw-text-xl fw-medium">UI/UX Design</span>
+                  <span class="text-main-two-600 tw-text-xl fw-medium">95%</span>
+                </div>
+                <div class="tw-rounded-lg overflow-hidden" style="height: 6px; background: rgba(255,255,255,0.1);">
+                  <div class="tw-rounded-lg bg-main-two-600" style="height: 100%; width: 95%; transition: width 1.5s ease;"></div>
+                </div>
+              </div>
+              <div class="tw-mb-10">
+                <div class="d-flex justify-content-between tw-mb-4">
+                  <span class="text-white tw-text-xl fw-medium">Web Development</span>
+                  <span class="text-main-two-600 tw-text-xl fw-medium">90%</span>
+                </div>
+                <div class="tw-rounded-lg overflow-hidden" style="height: 6px; background: rgba(255,255,255,0.1);">
+                  <div class="tw-rounded-lg bg-main-two-600" style="height: 100%; width: 90%; transition: width 1.5s ease;"></div>
+                </div>
+              </div>
+              <div class="tw-mb-10">
+                <div class="d-flex justify-content-between tw-mb-4">
+                  <span class="text-white tw-text-xl fw-medium">Branding & Identity</span>
+                  <span class="text-main-two-600 tw-text-xl fw-medium">85%</span>
+                </div>
+                <div class="tw-rounded-lg overflow-hidden" style="height: 6px; background: rgba(255,255,255,0.1);">
+                  <div class="tw-rounded-lg bg-main-two-600" style="height: 100%; width: 85%; transition: width 1.5s ease;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <div class="tw-mb-10">
+                <div class="d-flex justify-content-between tw-mb-4">
+                  <span class="text-white tw-text-xl fw-medium">Creative Strategy</span>
+                  <span class="text-main-two-600 tw-text-xl fw-medium">88%</span>
+                </div>
+                <div class="tw-rounded-lg overflow-hidden" style="height: 6px; background: rgba(255,255,255,0.1);">
+                  <div class="tw-rounded-lg bg-main-two-600" style="height: 100%; width: 88%; transition: width 1.5s ease;"></div>
+                </div>
+              </div>
+              <div class="tw-mb-10">
+                <div class="d-flex justify-content-between tw-mb-4">
+                  <span class="text-white tw-text-xl fw-medium">Digital Marketing</span>
+                  <span class="text-main-two-600 tw-text-xl fw-medium">80%</span>
+                </div>
+                <div class="tw-rounded-lg overflow-hidden" style="height: 6px; background: rgba(255,255,255,0.1);">
+                  <div class="tw-rounded-lg bg-main-two-600" style="height: 100%; width: 80%; transition: width 1.5s ease;"></div>
+                </div>
+              </div>
+              <div class="tw-mb-10">
+                <div class="d-flex justify-content-between tw-mb-4">
+                  <span class="text-white tw-text-xl fw-medium">Motion Design</span>
+                  <span class="text-main-two-600 tw-text-xl fw-medium">75%</span>
+                </div>
+                <div class="tw-rounded-lg overflow-hidden" style="height: 6px; background: rgba(255,255,255,0.1);">
+                  <div class="tw-rounded-lg bg-main-two-600" style="height: 100%; width: 75%; transition: width 1.5s ease;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Skills Section End ==================== -->
+
+      <!-- ==================== Experience Counter Start ==================== -->
+      <section class="py-120 position-relative z-1">
+        <div class="container tw-container-1800-px">
+          <div class="row justify-content-center tw-mb-21">
+            <div class="col-xl-9">
+              <div class="text-center">
+                <h2 class="text-heading tw-text-15 tw-itm-title tw-itm-anim">
+                  Delivering excellence through years of experience, hundreds of projects, and unwavering client satisfaction
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="about-three-wrap-shape d-flex justify-content-between flex-wrap">
+            <div class="banner-three-counter-item tw-rounded-md position-relative" data-aos="fade-up"
+              data-aos-duration="1000" data-aos-delay="200">
+              <h2 class="banner-three-counter-title tw-text-101 fw-semibold font-heading text-heading tw-mb-2 lh-1">
+                <span class="purecounter font-heading" data-purecounter-duration="4"
+                  data-purecounter-end="15"></span>+
+              </h2>
+              <p class="banner-three-counter-paragraph tw-text-lg fw-medium text-heading">
+                Years of Experience
+              </p>
+            </div>
+            <div class="banner-three-counter-item tw-rounded-md position-relative" data-aos="fade-up"
+              data-aos-duration="1000" data-aos-delay="300">
+              <h2 class="banner-three-counter-title tw-text-101 fw-semibold font-heading text-heading tw-mb-2 lh-1">
+                <span class="purecounter font-heading" data-purecounter-duration="2"
+                  data-purecounter-end="70"></span>+
+              </h2>
+              <p class="banner-three-counter-paragraph tw-text-lg fw-medium text-heading">
+                Projects Completed
+              </p>
+            </div>
+            <div class="banner-three-counter-item tw-rounded-md position-relative" data-aos="fade-up"
+              data-aos-duration="1000" data-aos-delay="400">
+              <h2 class="banner-three-counter-title tw-text-101 fw-semibold font-heading text-heading tw-mb-2 lh-1">
+                <span class="purecounter font-heading" data-purecounter-duration="3"
+                  data-purecounter-end="96"></span>+
+              </h2>
+              <p class="banner-three-counter-paragraph tw-text-lg fw-medium text-heading">
+                Happy Clients
+              </p>
+            </div>
+            <div class="banner-three-counter-item tw-rounded-md position-relative" data-aos="fade-up"
+              data-aos-duration="1000" data-aos-delay="500">
+              <h2 class="banner-three-counter-title tw-text-101 fw-semibold font-heading text-heading tw-mb-2 lh-1">
+                <span class="purecounter font-heading" data-purecounter-duration="4"
+                  data-purecounter-end="12"></span>+
+              </h2>
+              <p class="banner-three-counter-paragraph tw-text-lg fw-medium text-heading">
+                Awards Won
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Experience Counter End ==================== -->
+
+      <!-- ==================== Marquee Start ==================== -->
+      <div class="marquee tw-pt-17 bg-black">
+        <div class="marquee_left d-flex align-items-center justify-content-between tw-gap-16 overflow-hidden">
+          <div>
+            <h2 class="marquee-two-title marquee-three-title text-uppercase text-white">
+              About Me <span class="text-white">-</span>
+            </h2>
+          </div>
+          <div>
+            <h2 class="marquee-two-title marquee-three-title text-uppercase text-stroke">
+              About Me <span class="text-white">-</span>
+            </h2>
+          </div>
+          <div>
+            <h2 class="marquee-two-title marquee-three-title text-uppercase text-white">
+              About Me <span class="text-white">-</span>
+            </h2>
+          </div>
+          <div>
+            <h2 class="marquee-two-title marquee-three-title text-uppercase text-stroke">
+              About Me <span class="text-white">-</span>
+            </h2>
+          </div>
+          <div>
+            <h2 class="marquee-two-title marquee-three-title text-uppercase text-white">
+              About Me <span class="text-white">-</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <!-- ==================== Marquee End ==================== -->
+
+      <!-- ==================== Work Process Section Start ==================== -->
+      <section class="bg-black py-120">
+        <div class="container tw-container-1800-px">
+          <div class="row justify-content-center tw-mb-21">
+            <div class="col-xl-8">
+              <div class="text-center">
+                <h2 class="text-white tw-text-15 tw-char-animation">My Work Process</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="tw-rounded-lg tw-p-705 border border-1 border-neutral-700 tw-mb-705">
+                <span class="text-main-two-600 tw-text-101 fw-semibold font-heading d-block tw-mb-6">01</span>
+                <h3 class="tw-text-2xl text-white tw-mb-4 fw-semibold">Discovery</h3>
+                <p class="text-white tw-text-lg">
+                  Understanding your brand, goals, audience, and market position through deep research and strategic analysis.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <div class="tw-rounded-lg tw-p-705 border border-1 border-neutral-700 tw-mb-705">
+                <span class="text-main-two-600 tw-text-101 fw-semibold font-heading d-block tw-mb-6">02</span>
+                <h3 class="tw-text-2xl text-white tw-mb-4 fw-semibold">Design</h3>
+                <p class="text-white tw-text-lg">
+                  Creating wireframes, prototypes, and high-fidelity designs that bring your vision to life with pixel-perfect precision.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <div class="tw-rounded-lg tw-p-705 border border-1 border-neutral-700 tw-mb-705">
+                <span class="text-main-two-600 tw-text-101 fw-semibold font-heading d-block tw-mb-6">03</span>
+                <h3 class="tw-text-2xl text-white tw-mb-4 fw-semibold">Develop</h3>
+                <p class="text-white tw-text-lg">
+                  Writing clean, efficient code to build responsive websites and applications that perform flawlessly across all devices.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+              <div class="tw-rounded-lg tw-p-705 border border-1 border-neutral-700 tw-mb-705">
+                <span class="text-main-two-600 tw-text-101 fw-semibold font-heading d-block tw-mb-6">04</span>
+                <h3 class="tw-text-2xl text-white tw-mb-4 fw-semibold">Deliver</h3>
+                <p class="text-white tw-text-lg">
+                  Launching your project with thorough testing, optimization, and ongoing support to ensure long-term success.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Work Process Section End ==================== -->
+
+      <!-- ==================== Brand Section Start ==================== -->
+      <section class="brand-three-area brand-two-area pb-120 pt-120">
+        <div class="container tw-container-1800-px">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="text-center tw-mb-15">
+                <h2 class="brand-three-title tw-text-xl tw-char-animation">
+                  Loved by Teams Around the World
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-2">
+            <div class="col-xl-2 col-lg-6 col-md-6">
+              <div class="brand-item brand-three-item position-relative z-1 tw-mb-1" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="200">
+                <span class="brand-active-media"><img src="assets/images/thumbs/marquee-two-thumb1.png"
+                    alt="brand" /></span>
+                <span class="brand-hover-media"><img src="assets/images/thumbs/marquee-two-thumb11.png"
+                    alt="brand" /></span>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-6">
+              <div class="brand-item brand-three-item position-relative z-1 tw-mb-1" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="300">
+                <span class="brand-active-media"><img src="assets/images/thumbs/marquee-two-thumb2.png"
+                    alt="brand" /></span>
+                <span class="brand-hover-media"><img src="assets/images/thumbs/marquee-two-thumb22.png"
+                    alt="brand" /></span>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-6"></div>
+            <div class="col-xl-2 col-lg-6 col-md-6">
+              <div class="brand-item brand-three-item position-relative z-1 tw-mb-1" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="400">
+                <span class="brand-active-media"><img src="assets/images/thumbs/marquee-thumb55.png"
+                    alt="brand" /></span>
+                <span class="brand-hover-media"><img src="assets/images/thumbs/marquee-thumb5.png"
+                    alt="brand" /></span>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-6"></div>
+            <div class="col-xl-2 col-lg-6 col-md-6">
+              <div class="brand-item brand-three-item position-relative z-1 tw-mb-1" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="500">
+                <span class="brand-active-media"><img src="assets/images/thumbs/marquee-two-thumb4.png"
+                    alt="brand" /></span>
+                <span class="brand-hover-media"><img src="assets/images/thumbs/marquee-two-thumb44.png"
+                    alt="brand" /></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Brand Section End ==================== -->
+
+      <!-- ==================== Footer Start ==================== -->
+      <section class="footer-three-area pt-120 tw-pb-10 position-relative z-1">
+        <div class="container tw-container-1800-px">
+          <div class="row justify-content-between pb-120">
+            <div class="col-xl-5 col-lg-6">
+              <div class="footer-three-top-left tw-me-25" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-delay="200">
+                <div class="tw-mb-9">
+                  <h2 class="tw-text-15 text-white tw-char-animation">
+                    Let's create something meaningful
+                  </h2>
+                </div>
+                <div class="d-inline-flex align-items-center tw-gap-6 tw-mb-10 flex-wrap">
+                  <a class="tw-text-2xl fw-medium text-main-600 hover-underline hover-text-white"
+                    href="mailto:unifexdonin@gmail.com">unifexdonin@gmail.com</a>
+                  <span class="tw-text-2xl fw-medium text-main-600">//</span>
+                  <a class="tw-text-2xl fw-medium text-main-600 hover-underline hover-text-white"
+                    href="tel:+442039991245">+44 20 3999 1245</a>
+                </div>
+                <div class="footer-three-top-info tw-p-705 tw-rounded-lg d-flex tw-gap-6">
+                  <div class="footer-three-top-thumb tw-w-160-px">
+                    <img class="tw-rounded-lg w-100" src="assets/images/thumbs/footer-three-thumb.jpg" alt="thumb" />
+                  </div>
+                  <div class="footer-three-top-content d-flex justify-content-between flex-column">
+                    <div>
+                      <h3 class="tw-text-xl text-white tw-mb-2">Maxwell Sterling</h3>
+                      <p class="text-white">Co-Founder & CTO</p>
+                    </div>
+                    <div class="footer-three-social">
+                      <ul class="d-flex align-items-center tw-gap-1">
+                        <li>
+                          <a class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                            href="#"><i class="ph ph-facebook-logo"></i></a>
+                        </li>
+                        <li>
+                          <a class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                            href="#"><i class="ph ph-x-logo"></i></a>
+                        </li>
+                        <li>
+                          <a class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                            href="#"><i class="ph ph-instagram-logo"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+              <div class="footer-three-form" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <form action="#">
+                  <div class="row">
+                    <div class="col-xl-12">
+                      <div class="position-relative tw-mb-7">
+                        <input type="text"
+                          class="form-control bg-transparent shadow-none tw-rounded-lg text-white tw-ps-7 tw-pe-13 tw-placeholder-text-neutral-100 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2"
+                          placeholder="First Name" />
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="position-relative tw-mb-7">
+                        <input type="email"
+                          class="form-control bg-transparent shadow-none tw-rounded-lg text-white tw-ps-7 tw-pe-13 tw-placeholder-text-neutral-100 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2"
+                          placeholder="Email Address" />
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="position-relative tw-mb-7">
+                        <textarea
+                          class="form-control bg-transparent shadow-none tw-h-196-px tw-rounded-lg text-white tw-ps-7 tw-pe-13 tw-placeholder-text-neutral-100 focus-border-main-600 focus-tw-placeholder-text-hidden tw-placeholder-transition-2"
+                          placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="contact-button">
+                        <button
+                          class="tw-hover-btn bg-main-600 text-heading tw-text-xl fw-bold tw-py-4 tw-px-10 d-inline-flex justify-content-center w-100 hover-text-heading hover-bg-white tw-transition-3 tw-rounded-lg">
+                          submit message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-three-border tw-px-18 tw-mb-10">
+          <div class="container-fluid gx-0">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="footer-three-middile d-flex align-items-center justify-content-between">
+                  <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <h4 class="tw-text-2xl text-white tw-mb-2">Quick Links</h4>
+                    <ul class="d-flex tw-gap-2 flex-wrap">
+                      <li><a class="tw-text-lg text-white" href="index.html">Home,</a></li>
+                      <li><a class="tw-text-lg text-white" href="about.html">About Me,</a></li>
+                      <li><a class="tw-text-lg text-white" href="portfolio-one.html">Portfolio,</a></li>
+                      <li><a class="tw-text-lg text-white" href="service.html">Service,</a></li>
+                      <li><a class="tw-text-lg text-white" href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <a class="footer-three-back-to-top tw-w-170 tw-h-170 lh-1 d-inline-flex justify-content-center align-items-center bg-main-two-600 text-white tw-text-3xl rounded-circle"
+                      href="#"><i class="ph ph-arrow-up"></i></a>
+                  </div>
+                  <div class="text-lg-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <h4 class="tw-text-2xl text-white tw-mb-2">Unifex Agency</h4>
+                    <p class="tw-text-lg text-white">© 2025 Unifex Theme. All right reserved</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="container tw-container-1800-px">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="footer-three-bottom">
+                  <h5 class="footer-three-bottom-title text-white">Noah Niko</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class="position-absolute top-0 start-0 z-n1" src="assets/images/shapes/footer-three-bg-shape.png"
+            alt="shape" />
+        </div>
+      </section>
+      <!-- ==================== Footer End ==================== -->
+
+    </div>
+  </div>
+
+  <!-- Jquery js -->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <!-- phosphor Js -->
+  <script src="assets/js/phosphor-icon.js"></script>
+  <!-- Bootstrap Bundle Js -->
+  <script src="assets/js/boostrap.bundle.min.js"></script>
+  <!-- aos -->
+  <script src="assets/js/aos.js"></script>
+  <!-- magnific popup js -->
+  <script src="assets/js/magnific-popup.min.js"></script>
+  <!-- marquee -->
+  <script src="assets/js/jquery.marquee.min.js"></script>
+  <!-- counterup js -->
+  <script src="assets/js/purecounter.js"></script>
+  <!-- swiper bundle js -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!-- gsap js -->
+  <script src="assets/js/gsap/gsap.js"></script>
+  <!-- Scroll plugin -->
+  <script src="assets/js/gsap/gsap-scroll-to-plugin.js"></script>
+  <!-- Scroll smoother -->
+  <script src="assets/js/gsap/gsap-scroll-smoother.js"></script>
+  <!-- Scroll Trigger -->
+  <script src="assets/js/gsap/gsap-scroll-trigger.js"></script>
+  <!-- split text -->
+  <script src="assets/js/gsap/gsap-split-text.js"></script>
+  <!-- chroma js -->
+  <script src="assets/js/gsap/chroma.min.js"></script>
+
+  <!-- custom GSAP -->
+  <script src="assets/js/slider-active.js"></script>
+  <!-- custom GSAP -->
+  <script src="assets/js/custom-gsap.js"></script>
+  <!-- main js -->
+  <script src="assets/js/main.js"></script>
+  <!-- cursor js -->
+  <script src="assets/js/tw-cursor.js"></script>
+</body>
+
+</html>
